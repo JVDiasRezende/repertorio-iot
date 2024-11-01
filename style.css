@@ -41,24 +41,21 @@ canvas {
 
 .titulo-secundario {
     text-align: center;
-    margin: 1em 1em 1em 1em;
-    margin-bottom: 5em;
     font-size: 2em;
-    z-index: 1;
-    animation: nebulahero 10s infinite linear;
-    padding: 1em 2em 1em 2em;
+    padding: 1em 2em;
     background: linear-gradient(to right, #5B22E8, #9c23ff);
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
     z-index: 1;
     animation: nebulahero 10s infinite linear;
-    padding: 1em 2em 1em 2em;
+    width: 600px;
+    margin: 3em auto;
+
 }
 
 .introducao {
     text-align: center;
-    margin: 1em 1em 1em 1em;
     font-size: 2em;
     background: linear-gradient(to right, #5B22E8, #9c23ff);
     border: 2px solid black;
@@ -67,6 +64,8 @@ canvas {
     z-index: 1;
     animation: nebulahero 10s infinite linear;
     padding: 1em 2em 1em 2em;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .botao {
@@ -107,9 +106,17 @@ canvas {
 
 .titulo-disciplina {
     text-align: center;
-    margin: 2em 1em 2em 1em;
-    margin-bottom: 5em;
+    
     font-size: 2em;
+    padding: 1em 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    width: 600px;
+    margin: 3em auto;
 }
 
 .container-rodape {
