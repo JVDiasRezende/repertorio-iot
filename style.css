@@ -126,9 +126,9 @@ canvas {
     position: relative;
     z-index: 1;
     animation: nebulahero 10s infinite linear;
+    padding: 1em;
 
 }
-
 .imagem-iot {
     width: 5%;
 }
