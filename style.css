@@ -1,0 +1,254 @@
+canvas {
+    display: block;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.747);
+    padding-bottom: 10em;
+}
+
+#particles-js {
+    position: fixed; /* Garante que a posição seja fixa */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Largura da viewport inteira */
+    height: 100vh; /* Altura da viewport inteira */
+    z-index: -1; /* Coloca o fundo atrás do conteúdo principal */
+}
+
+
+/* Conteúdo principal */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos adicionais */
+.titulo {
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    font-size: 3em;
+}
+
+.cabecalho {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, transparent, #5B22E8, #9c23ff, transparent) 1;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.747);
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+}
+
+.secao-introdução {
+    padding: 5em;
+    padding-bottom: 3em;
+}
+
+.titulo-secundario {
+    text-align: center;
+    padding: 2em 1em 1em 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    color: transparent;
+    background-clip: text;
+  
+}
+
+
+.introducao {
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    padding: 1em 2em 1em 2em;
+    width: 1200px;
+    margin: 0 auto;
+    color: transparent;
+    background-clip: text;
+
+}
+
+.botao {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em 2em 1em 2em;
+    margin: 0 1em 0 1em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    text-decoration: none;
+    color: transparent;
+    transition: 0.7s;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes nebulahero {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(-360deg);
+    }
+}
+
+.secao-areas {
+    text-align: center;
+}
+.secao-areas2 {
+    margin-top: 5em;
+}
+
+.botao:hover {
+    /* Fazendo com que o botão aumente quando eu passar o mouse*/
+    transition: 0.7s;
+    font-size: 2.1em;
+    padding: 1em 2em 1em 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    border: 2px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+.titulo-disciplina {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    color: transparent;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 2em;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.titulo{
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    z-index: 1;
+    color: transparent;
+    background-clip: text;
+}
+
+.container-rodape {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, transparent, #5B22E8, #9c23ff, transparent) 1;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.imagem-iot {
+    width: 5%;
+}
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%; /* Garante que a imagem ocupa toda a largura */
+    height: auto; /* Mantém a proporção */
+    display: block;
+}
+.carousel-item:last-child img {
+    width: 50%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.carousel-control {
+    font-size: 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    animation: nebulahero 10s infinite linear;
+    z-index: 1;
+    color: transparent;
+    background-clip: text;
+    border: none;
+    margin: 1em 1em 2em 1em;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.carousel-control:hover {
+    font-size: 3em;
+}
+.biologia-item{
+    width: 0%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.biologia-item:first-child {
+    width: 100%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.iot2-video, .iot3-video, .iot4-video, .iot5-video {
+    width: 100%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.historia-item:last-child img,  .sociologia-item:last-child img,  .geografia-item:last-child img, .matematica-item:last-child img{
+    width: 100%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.estatistica-item:last-child img , .portugues-item:first-child img, .artes-item:first-child img, .edfisica-item img{
+    width: 100%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.portugues-item:last-child img , .artes-item:last-child img, .ingles-item:last-child img{
+    width: 70%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.portugues-item img, .artes-item img{
+    width: 60%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.botao2 {
+    font-size: 2em;
+    transition: 0.7;
+    margin-bottom: 9em;
+}
+.botao2:hover {
+    font-size: 3em;
+}
+.iot3-video:last-child{
+    width: 60%; /* Ajuste a largura para diminuir a imagem */
+    height: auto; /* Mantém a proporção */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+.botao-home{
+    margin-top: 7em;
+}
