@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Linguagens</h1>
+    </header>
+    <main>
+        <div class="animation-container"></div>
+        <div id="particles-js"></div>
+        <section class="secao-portugues">
+            <h2 class="titulo-disciplina">Tarefa favorita de Português</h2>
+            <div class="carousel-container">
+                <div class="carousel carousel-portugues">
+                    <div class="carousel-item portugues-item">
+                        <img src="img/portugues/0.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item portugues-item">
+                        <img src="img/portugues/1.png" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item portugues-item">
+                        <img src="img/portugues/2.png" alt="Imagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="prevportugues()">❮</button>
+                <button class="carousel-control" onclick="nextportugues()">❯</button>
+            </div>
+        </section>
+        <section class="secao-artes">
+            <h2 class="titulo-disciplina">Tarefa favorita de Artes</h2>
+            <div class="carousel-container">
+                <div class="carousel carousel-artes">
+                    <div class="carousel-item artes-item">
+                        <img src="img/artes/0.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item artes-item">
+                        <img src="img/artes/1.png" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item artes-item">
+                        <img src="img/artes/2.png" alt="Imagem 3">
+                    </div>
+                    <div class="carousel-item artes-item">
+                        <img src="img/artes/3.png" alt="Imagem 4">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="prevartes()">❮</button>
+                <button class="carousel-control" onclick="nextartes()">❯</button>
+            </div>
+
+        </section>
+        <section class="secao-ingles">
+            <h2 class="titulo-disciplina">Tarefa favorita de Inglês</h2>
+            <div class="carousel-container">
+                <div class="carousel carousel-ingles">
+                    <div class="carousel-item ingles-item">
+                        <img src="img/ingles/0.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item ingles-item">
+                        <img src="img/ingles/1.png" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item ingles-item">
+                        <img src="img/ingles/2.png" alt="Imagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="previngles()">❮</button>
+                <button class="carousel-control" onclick="nextingles()">❯</button>
+            </div>
+        </section>
+        <section class="secao-edfisica">
+            <h2 class="titulo-disciplina">Tarefa favorita de Educação Física</h2>
+            <div class="carousel-container">
+                <div class="carousel carousel-edfisica">
+                    <div class="carousel-item edfisica-item">
+                        <img src="img/edfisica/0.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item edfisica-item">
+                        <img src="img/edfisica/1.jpeg" alt="Imagem 2">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="prevedfisica()">❮</button>
+                <button class="carousel-control" onclick="nextedfisica()">❯</button>
+            </div>
+        </section>
+        <section class="secao-areas botao-home">
+            <a href="index.html" class="botao">Voltar para a página principal</a>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container-rodape">
+            <img class="imagem-iot" src="img/imagem-iot.png" alt="Imagem IOT">
+        </div>
+    </footer>
+    <script src="cdn.js"></script>
+    <script src="particle.js"></script>
+    <script src="carrossel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Matemática</h1>
+    </header>
+    <div class="animation-container"></div>
+    <div id="particles-js"></div>
+    <div>
+
+    </div>
+    <main>
+        <section class="secao-matematica">
+            <h2 class="titulo-disciplina">Tarefa favorita de Matemática</h2>
+            <div class="carousel-container">
+                <div class="carousel carousel-matematica">
+                    <div class="carousel-item matematica-item">
+                        <img src="img/matematica/0.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item matematica-item">
+                        <img src="img/matematica/1.png" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item matematica-item">
+                        <img src="img/matematica/2.png" alt="Imagem 3">
+                    </div>
+                    <div class="carousel-item matematica-item">
+                        <img src="img/matematica/3.png" alt="Imagem 4">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="prevmatematica()">❮</button>
+                <button class="carousel-control" onclick="nextmatematica()">❯</button>
+            </div>
+        </section>
+        <section class="secao-estatistica">
+            <div class="carousel-container">
+                <div class="carousel carousel-estatistica">
+                    <div class="carousel-item estatistica-item">
+                        <img src="img/matematica/6.png" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item estatistica-item">
+                        <img src="img/matematica/4.png" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item estatistica-item">
+                        <img src="img/matematica/5.png" alt="Imagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control" onclick="prevestatistica()">❮</button>
+                <button class="carousel-control" onclick="nextestatistica()">❯</button>
+            </div>
+        </section>
+        <section class="secao-areas botao-home">
+            <a href="index.html" class="botao">Voltar para a página principal</a>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container-rodape">
+            <img class="imagem-iot" src="img/imagem-iot.png" alt="Imagem IOT">
+        </div>
+    </footer>
+    <script src="cdn.js"></script>
+    <script src="particle.js"></script>
+    <script src="carrossel.js"></script>
+</body>
+
+</html>
